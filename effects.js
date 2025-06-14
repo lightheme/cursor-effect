@@ -2,7 +2,7 @@ let positiony = 0;
 positiony = window.pageYOffset,
     console.log(positiony),
     console.log(document.body.clientHeight);
-const canvas = document.getElementsByTagName("canvas")[0];
+const canvas = document.getElementById("js-cursor-effect");
 canvas.width = canvas.clientWidth, canvas.height = canvas.clientHeight;
 let config = {
     SIM_RESOLUTION: 128,
